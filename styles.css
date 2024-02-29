@@ -5,3 +5,43 @@
     box-sizing: border-box;
 }
 
+div.container {
+    height: 400px;
+    width: 400px;
+    margin: 30% auto 0;
+
+}
+
+div > h1 {
+    font-size: 55px;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+div > p {
+    font-size: 100px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+div.buttons-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+div > button{
+    background-color: transparent;
+    border: 2.5px solid #000;
+    border-radius: 8px;
+    letter-spacing: 2px;
+    height: 35px;
+}
+
+div > .decrease, div > .increase {
+    width: 120px;
+}
+
+div > .reset {
+    width: 90px;
+}
