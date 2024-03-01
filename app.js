@@ -6,9 +6,8 @@ const increaseButton = document.querySelector('.increase');
 let currentNum = numberDisplay.innerText;
 
 const increaseNumber = () => {
-    let increasedNum = ++currentNum;
-    increasedNum = increasedNum.toString();
-    numberDisplay.innerText = increasedNum;
+    ++currentNum;
+    numberDisplay.innerText = currentNum.toString();
 }
 
 increaseButton.addEventListener('click', increaseNumber);
