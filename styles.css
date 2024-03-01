@@ -34,8 +34,14 @@ div > button{
     background-color: transparent;
     border: 2.5px solid #000;
     border-radius: 8px;
+    cursor: pointer;
     letter-spacing: 2px;
     height: 35px;
+}
+
+div > button:hover {
+    background-color: #92C7CF;
+    color: #FBF9F1;
 }
 
 div > .decrease, div > .increase {
