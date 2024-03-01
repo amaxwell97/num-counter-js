@@ -11,3 +11,10 @@ const increaseNumber = () => {
 }
 
 increaseButton.addEventListener('click', increaseNumber);
+
+const decreaseNumber = () => {
+    --currentNum;
+    numberDisplay.innerText = currentNum.toString();
+}
+
+decreaseButton.addEventListener('click', decreaseNumber);
