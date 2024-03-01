@@ -19,7 +19,7 @@ div > h1 {
     margin-bottom: 20px;
 }
 
-div > p {
+div.num-container {
     font-size: 100px;
     text-align: center;
     margin-bottom: 20px;
